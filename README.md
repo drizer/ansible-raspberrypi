@@ -1,3 +1,3 @@
 # ansible-raspberrypi
 
-My Raspberry Pi Ansiable repositoty!
+My Raspberry Pi Ansiable repository!

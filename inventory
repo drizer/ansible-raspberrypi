@@ -1,3 +1,12 @@
 [windows]
 10.0.0.2
 10.0.0.3
+
+[windows:vars] # These are the group variables
+ansible_user=ansible
+ansible_password="wicked.ansible"
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_scheme=https
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_kerberos_delegation=true
